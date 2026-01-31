@@ -1,24 +1,23 @@
 package com.adaptive.sorting;
 
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.List;
+import java.io.BufferedReader;
+import java.io.FileReader;
 
-public class OutputWriter {
-
-    public static void write(List<String> data) {
+public class Main {
+    public static void main(String[] args) {
         try {
-            FileWriter writer = new FileWriter("output/sample-output.txt");
+            BufferedReader br = new BufferedReader(new FileReader("db/amazon.csv"));
+            String line;
 
-            writer.write("Adaptive Sorting Engine Output\n");
-            writer.write("--------------------------------\n");
+            br.readLine(); // skip header
 
-            for (String line : data) {
-                writer.write(line + "\n");
+            while ((line = br.readLine()) != null) {
+                String[] data = line.split(",");
+                System.out.println(data[0] + " - " + data[1]);
             }
 
-            writer.close();
-        } catch (IOException e) {
+            br.close();
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
