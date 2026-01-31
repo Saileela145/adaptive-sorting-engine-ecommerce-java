@@ -1,0 +1,6 @@
+• Designed an Adaptive Sorting Engine for E-commerce using Java.
+• Integrated MySQL for product data and sorting metrics storage.
+• Integrated MongoDB to store and read user behavior dynamically.
+• Implemented adaptive sorting logic that selects sort keys based on user preferences.
+• Used JDBC and MongoDB Java Driver for database connectivity.
+• Designed the system with clear separation of data, logic, and analytics layers.
