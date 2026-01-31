@@ -1,5 +1,99 @@
-Adaptive Sorting Engine Output
---------------------------------
-Laptop - 45000
-Phone - 12000
-Tablet - 30000
+
+C:\Users\Administrator\adaptive-sorting-engine-ecommerce-java>java -cp src com.adaptive.sorting.Main
+Search (or) Ask a question: milk
+Enter price range (low / medium / high): low
+
+Algorithm Used: Insertion Sort
+------------------------------------------------------------------
++----------------------------------------------------------------------------------------------------------------------------------+
+| PRODUCT NAME                             | CATEGORY               | PRICE    | DISCOUNT   | RATING |
++----------------------------------------------------------------------------------------------------------------------------------+
+| PRO365 Indo Mocktails/Coffee Foamer/C... | Home&Kitchen|Kitche... | 499      | 249        | 3.3    |
+| IKEA Frother for Milk                    | Home&Kitchen|Kitche... | 499      | 244        | 3.3    |
+| WIDEWINGS Electric Handheld Milk Wand... | Home&Kitchen|Kitche... | 999      | 259        | 4.0    |
+| Oratech Coffee Frother electric, milk... | Home&Kitchen|Kitche... | 499      | 279        | 4.8    |
+| FIGMENT Handheld Milk Frother Recharg... | Home&Kitchen|Kitche... | 1599     | 699        | 4.7    |
+| Zuvexa USB Rechargeable Electric Foam... | Home&Kitchen|Kitche... | 1299     | 499        | 4.7    |
+| Sui Generis Electric Handheld Milk Wa... | Home&Kitchen|Kitche... | 699      | 210        | 3.7    |
+| Ikea Little Loved Corner PRODUKT Milk... | Home&Kitchen|Kitche... | 499      | 229        | 3.5    |
+| Milk Frother, Immersion Blender Cordl... | Home&Kitchen|Kitche... | 999      | 375        | 3.6    |
+| IKEA Milk Frother for Your Milk, Coff... | Home&Kitchen|Kitche... | 399      | 229        | 3.6    |
+| KNOWZA Electric Handheld Milk Wand Mi... | Home&Kitchen|Kitche... | 999      | 426        | 4.1    |
++----------------------------------------------------------------------------------------------------------------------------------+
+
+/
+
+C:\Users\Administrator\adaptive-sorting-engine-ecommerce-java>java -cp src com.adaptive.sorting.Main
+Search (or) Ask a question: milk
+Enter price range (low / medium / high): medium
+
+Algorithm Used: Shell Sort
+--------------------------------------------------------------
++------------------------------------------------------------------------------------------------------------------------------+
+| PRODUCT NAME                                  | CATEGORY                  | PRICE      | DISCOUNT     |
++------------------------------------------------------------------------------------------------------------------------------+
+| KENT 16052 Elegant Electric Glass Kettle 1... | Home&Kitchen|Kitchen&H... | 2000       | 1199         |
+| Pigeon Kessel Multipurpose Kettle (12173) ... | Home&Kitchen|Kitchen&H... | 1775       | 1499         |
+| InstaCuppa Portable Blender for Smoothie, ... | Home&Kitchen|Kitchen&H... | 2499       | 1999         |
+| InstaCuppa Portable Blender for Smoothie, ... | Home&Kitchen|Kitchen&H... | 3499       | 2799         |
+| InstaCuppa Milk Frother for Coffee - Handh... | Home&Kitchen|Kitchen&H... | 1499       | 1099         |
++------------------------------------------------------------------------------------------------------------------------------+
+
+\
+C:\Users\Administrator\adaptive-sorting-engine-ecommerce-java>java -cp src com.adaptive.sorting.Main
+Search (or) Ask a question: phone
+Enter price range (low / medium / high): high
+
+Algorithm Used: Quick Sort
+------------------------------------------------------------------
++----------------------------------------------------------------------------------------------------------------------------------+
+| PRODUCT NAME                             | CATEGORY               | PRICE    | DISCOUNT   | RATING |
++----------------------------------------------------------------------------------------------------------------------------------+
+| SanDisk 1TB Extreme Portable SSD 1050... | Computers&Accessori... | 32000    | 10389      | 4.4    |
++----------------------------------------------------------------------------------------------------------------------------------+
+\
+
+C:\Users\Administrator\adaptive-sorting-engine-ecommerce-java>java -cp src com.adaptive.sorting.Main
+Search (or) Ask a question: phone
+Enter price range (low / medium / high): medium
+
+Algorithm Used: Shell Sort
+------------------------------------------------------------------
++----------------------------------------------------------------------------------------------------------------------------------+
+| PRODUCT NAME                             | CATEGORY               | PRICE    | DISCOUNT   | RATING |
++----------------------------------------------------------------------------------------------------------------------------------+
+| Belkin Apple Certified Lightning To T... | Computers&Accessori... | 1999     | 1599       | 4.4    |
+| Belkin Apple Certified Lightning To T... | Computers&Accessori... | 1999     | 1499       | 4.4    |
+| Belkin Apple Certified Lightning to U... | Computers&Accessori... | 1999     | 1299       | 4.4    |
+| Cubetek 3 in 1 LCD Display V5.0 Bluet... | Electronics|HomeThe... | 3100     | 1990       | 4.0    |
+| Irusu Play VR Plus Virtual Reality He... | Electronics|HomeThe... | 3500     | 2699       | 3.5    |
+| ESR USB C to Lightning Cable, 10 ft (... | Computers&Accessori... | 1899     | 1519       | 4.4    |
+| Nokia 105 Single SIM, Keypad Mobile P... | Electronics|Mobiles... | 1599     | 1299       | 4.0    |
+| Samsung 25W USB Travel Adapter for Ce... | Electronics|Mobiles... | 1699     | 1219       | 4.4    |
+| Samsung Original 25W USB Travel Light... | Electronics|Mobiles... | 1699     | 1075       | 4.4    |
+| Nokia 105 Single SIM, Keypad Mobile P... | Electronics|Mobiles... | 1599     | 1299       | 4.0    |
+| Nokia 105 Plus Single SIM, Keypad Mob... | Electronics|Mobiles... | 1699     | 1324       | 4.0    |
+| Nokia 105 Plus Single SIM, Keypad Mob... | Electronics|Mobiles... | 1699     | 1324       | 4.0    |
+| SanDisk Ultra?? microSDXCâ?¢ UHS-I Ca... | Electronics|Accesso... | 3500     | 1989       | 4.4    |
+| boAt Rockerz 400 Bluetooth On Ear Hea... | Electronics|Headpho... | 2990     | 1399       | 4.1    |
+| Nokia 8210 4G Volte keypad Phone with... | Electronics|Mobiles... | 5299     | 3799       | 3.5    |
+| Spigen Ultra Hybrid Back Cover Case C... | Electronics|Mobiles... | 2599     | 1599       | 4.3    |
+| Ambrane 27000mAh Power Bank, 20W Fast... | Electronics|Mobiles... | 2999     | 2499       | 4.1    |
+| boAt Rockerz 450 Bluetooth On Ear Hea... | Electronics|Headpho... | 3990     | 1220       | 4.1    |
+| Boult Audio ZCharge Bluetooth Wireles... | Electronics|Headpho... | 4999     | 1199       | 3.8    |
+| boAt Rockerz 550 Over Ear Bluetooth H... | Electronics|Headpho... | 4999     | 1799       | 4.1    |
+| boAt Rockerz 370 On Ear Bluetooth Hea... | Electronics|Headpho... | 2499     | 1199       | 4.0    |
+| JBL Tune 215BT, 16 Hrs Playtime with ... | Electronics|Headpho... | 2999     | 1499       | 3.7    |
+| SanDisk Extreme microSD UHS I Card 12... | Electronics|Accesso... | 2900     | 1329       | 4.5    |
+| Logitech K480 Wireless Multi-Device K... | Computers&Accessori... | 3295     | 2595       | 4.4    |
+| Sony WI-C100 Wireless Headphones with... | Electronics|Headpho... | 2790     | 1599       | 3.6    |
+| Infinity (JBL Glide 510, 72 Hrs Playt... | Electronics|Headpho... | 3999     | 1499       | 4.2    |
+| boAt Rockerz 400 Bluetooth On Ear Hea... | Electronics|Headpho... | 2990     | 1399       | 4.1    |
+| realme Buds Wireless in Ear Bluetooth... | Electronics|Headpho... | 1999     | 1679       | 4.1    |
+| Wings Phantom Pro Earphones Gaming Ea... | Computers&Accessori... | 5499     | 1199       | 3.8    |
+| Logitech K380 Wireless Multi-Device K... | Computers&Accessori... | 3195     | 2640       | 4.5    |
+| Redgear Cosmo 7,1 Usb Gaming Wired Ov... | Computers&Accessori... | 2999     | 1990       | 4.3    |
+| Sennheiser CX 80S in-Ear Wired Headph... | Electronics|Headpho... | 1990     | 1490       | 4.1    |
++----------------------------------------------------------------------------------------------------------------------------------+
+
+
