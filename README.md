@@ -1,10 +1,10 @@
 # Adaptive Sorting Engine - Java
 
-\# Adaptive Sorting Engine for E-Commerce (Java)
+# Adaptive Sorting Engine for E-Commerce (Java)
 
 
 
-\## Overview
+## Overview
 
 This project implements a realistic Adaptive Sorting Engine for an e-commerce platform.
 
@@ -14,7 +14,7 @@ and operates on real product data stored in MySQL.
 
 
 
-\## Tech Stack
+## Tech Stack
 
 \- Java (Core Java, JDBC)
 
@@ -26,7 +26,7 @@ and operates on real product data stored in MySQL.
 
 
 
-\## System Flow
+## System Flow
 
 CSV (Kaggle)
 
@@ -40,7 +40,7 @@ CSV (Kaggle)
 
 
 
-\## Features
+## Features
 
 \- Real-world data ingestion
 
@@ -52,7 +52,7 @@ CSV (Kaggle)
 
 
 
-\## Example
+## Example
 
 If MongoDB stores:
 
@@ -66,7 +66,7 @@ without changing application code.
 
 
 
-\## Why This Project Matters
+## Why This Project Matters
 
 This project demonstrates:
 
