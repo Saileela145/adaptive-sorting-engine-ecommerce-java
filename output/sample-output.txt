@@ -1,1 +1,5 @@
-Adaptive Sorting Engine Output 
+Adaptive Sorting Engine Output
+--------------------------------
+Laptop - 45000
+Phone - 12000
+Tablet - 30000
