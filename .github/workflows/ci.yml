@@ -19,6 +19,6 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
-    - name: Compile core engine only
+    - name: Compile only core sorting engine
       run: |
         javac src/com/adaptive/sorting/*.java
