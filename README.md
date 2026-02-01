@@ -31,7 +31,6 @@ CSV (Kaggle Dataset)
 ## Example
 If MongoDB stores the following user preference:
 
-```json
 {
   "userId": 1,
   "sortKey": "rating"
