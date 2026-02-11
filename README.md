@@ -29,8 +29,7 @@ If MongoDB stores the following user preference:
 {
   "userId": 1,
   "sortKey": "rating"
-}
-```json
+}```
 
 ### Output
 
