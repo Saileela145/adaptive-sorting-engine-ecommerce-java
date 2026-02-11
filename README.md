@@ -34,6 +34,6 @@ If MongoDB stores the following user preference:
 
 ### Output
 
--User Preference: Price + Rating
--Sorted Result: Product B → Product A → Product C
+- User Preference: Price + Rating
+- Sorted Result: Product B → Product A → Product C
 
